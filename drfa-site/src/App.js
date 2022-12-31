@@ -12,9 +12,11 @@ import BlogPage from './pages/BlogPage';
 function App() {
   return (
     <BrowserRouter>
-      <div className='App'>
-        <h1>Downey Rose Float Association</h1>
+      <div className='container'>
+        <header>
+        <h1 className='org-name'>Downey Rose Float Association</h1>
         <NavBar/>
+        </header>
         <div id='page-body'>
         <Routes>
           <Route  path='/'          element={<HomePage/>} />
