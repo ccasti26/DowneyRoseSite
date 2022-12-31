@@ -4,6 +4,11 @@
   src: url(OleoScriptSwashCaps-Regular.ttf);
 }
 
+@font-face {
+  font-family: "Oleo Script"; 
+  src: url(OleoScript-Regular.ttf);
+}
+
 html {
   box-sizing: border-box;
   max-width: 1125px;
@@ -38,6 +43,7 @@ header {
 }
 
 nav {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow: hidden;
     grid-column: 1 / 13;
     background-color: lavender;
