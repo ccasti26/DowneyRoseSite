@@ -2,10 +2,13 @@
 
 import { Link } from 'react-router-dom';
 
+
+
 const NavBar = () => {
 
     return (
         <nav>
+            <img src='_images/DRFA-Logo.webp' alt='' className='mobile-menu-logo' /> 
             <Link to='/'>Home</Link>
             <Link to='/about'>About</Link>
             <Link to='/donate'>Donate</Link>

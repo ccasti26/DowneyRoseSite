@@ -1,6 +1,5 @@
 import './App.css';
 
-import NavBar from './NavBar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import AboutUsPage from './pages/AboutUsPage';
@@ -8,16 +7,13 @@ import DonatePage from './pages/DonatePage';
 import DecoratePage from './pages/DecoratingPage';
 import ContactUsPage from './pages/ContactUsPage';
 import BlogPage from './pages/BlogPage';
+import Footer from './Footer';
+import Header from './Header';
 
 function App() {
   return (
     <BrowserRouter>
-      <div className='container'>
-        <header>
-        <h1 className='org-name'>Downey Rose Float Association</h1>
-        <NavBar/>
-        </header>
-        <div id='page-body'>
+        <Header/>
         <Routes>
           <Route  path='/'          element={<HomePage/>} />
           <Route  path='/about'     element={<AboutUsPage/>}  />
@@ -26,8 +22,7 @@ function App() {
           <Route  path='/contact'   element={<ContactUsPage/>}  />
           <Route  path='/blog'      element={<BlogPage/>} />
         </Routes>
-        </div>
-      </div>
+      <Footer/>
     </BrowserRouter>
   );
 }
