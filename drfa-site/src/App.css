@@ -21,9 +21,9 @@ body{
   margin: 0;
 }
 
-#root > * {
+/* #root > * {
   padding: 20px;  
-}
+} */
 
 #root {
   display: grid;
@@ -45,14 +45,26 @@ nav img {
   margin: 0 auto;
 }
 
+nav .mobile-nav-opener {
+  grid-column: 1 / 4;
+  background-color: red;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#navLinks {
+  grid-column: 1 / 4;
+}
+
 nav a {
-  display: block;
+  width: 100%;
   text-align: left;
   text-decoration: none;
-  grid-column: 1 / 4;
   background-color: white;
   color: red;
   padding: 5px;
+  display: block;
 }
 
 nav a:hover {
@@ -71,6 +83,7 @@ footer {
 main {
   text-align: justify;
   grid-column: 1 / 13;
+  padding: 10px;
 }
 
 main h2 {
@@ -92,3 +105,61 @@ main a:hover {
   color: red;
   background-color: white;
 }
+
+aside {
+  grid-column: 1 / 13;
+}
+
+div .separation-line {
+  background-color: black;
+  height: 5px;
+  margin: 0;
+  padding: 0;
+  grid-column: 1 / 13;
+}
+
+/* ABOUT US specific styles */
+
+#about-us {
+  grid-column: 1 / 13;
+  margin: 10px;
+}
+
+#about-us figure {
+  text-align: center;
+}
+
+#about-us figure img {
+  width: 100%;
+}
+
+#call-to-join {
+  font-family: 'Oleo Script', cursive;
+  font-size: larger;
+}
+
+/* TABLE STYLES Featured in HISTORY */
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: lightpink;
+}
+
+table thead {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: red ;
+  color: white;
+}
+
+/*  */
