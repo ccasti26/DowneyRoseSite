@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <footer>
-            &copy; City Rose Float Association 2022
+            &copy; Downey Rose Float Association 2023
         </footer>
     )
 }
