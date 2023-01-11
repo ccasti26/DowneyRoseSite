@@ -92,11 +92,10 @@ main {
   text-align: justify;
   grid-column: 1 / 13;
   padding: 10px;
-  background: linear-gradient(rgb(255, 255, 255, .25), rgba(255, 255, 255, 0.75)), url(images/roses-bg.jpeg) no-repeat fixed;
+  background: linear-gradient(rgb(255, 255, 255, .70), rgba(255, 255, 255, 0.9)), url(images/roses-bg.jpeg) no-repeat fixed;
 }
 
 main a {
-
   display: block;
   margin: 15px;
   text-decoration: none;
@@ -127,6 +126,21 @@ main figure{
 aside {
   grid-column: 1 / 13;
 }
+aside a {
+  display: block;
+  margin: 15px;
+  text-decoration: none;
+  background-color: red;
+  color: rgb(250, 233, 233);
+  padding: 7px;
+  text-align: center;
+  border: red solid 2px ;
+}
+
+aside a:hover {
+  color: red;
+  background-color: rgb(250, 233, 233);
+}
 
 footer {
   background-color: black;
@@ -136,13 +150,24 @@ footer {
   text-align: center;
 }
 
+.blog-list-item {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0 , 1fr));
+
+}
+
+.blog-list-item img {
+  grid-row: 1 / 4;
+  width: 100%;
+  margin: auto 0;
+}
+
+.blog-list-item h3, h5, p {
+  margin: 0;
+  grid-column: 2 / 4;
+}
 
 /* ABOUT US specific styles */
-
-#about-us {
-  grid-column: 1 / 13;
-  margin: 10px;
-}
 
 #call-to-join {
   font-family: 'Oleo Script', cursive;
@@ -162,16 +187,26 @@ table td, table th{
   padding: 8px;
 }
 
-table tr:nth-child(even) {
+table tbody tr:nth-child(even) {
   background-color: lightpink;
+}
+
+/* HIDES column that doesn't fit on mobile screen */
+table tbody tr td:nth-child(5) {
+  display: none;
+}
+
+table tbody tr th:nth-child(5) {
+  display: none;
 }
 
 table thead {
   padding-top: 12px;
   padding-bottom: 12px;
-  text-align: left;
   background-color: red ;
   color: white;
+  font-size: 1.5rem;
+  font-family: "Oleo Script Swash Caps", 'Lucida Sans', Verdana, sans-serif;
 }
 
 /*  CONTACT US */

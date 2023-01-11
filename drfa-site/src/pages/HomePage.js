@@ -1,3 +1,6 @@
+import MostRecentPostsAside from "../components/MostRecentPostsAside";
+import MostRecentPostsList from "../components/MostRecentPostsList";
+
 const HomePage = () => {
     return (
         <>
@@ -8,10 +11,7 @@ const HomePage = () => {
             <p>Our concept for the 2023 Pasadena Tournament of Roses&reg; features bees turning beautiful flowers into delicious honey.</p>
             <a href="#">More about our concept</a>
         </main>
-        <aside>
-            <h2>Recent Posts</h2>
-        </aside>
-        
+        <MostRecentPostsAside />
         </>
 
     );

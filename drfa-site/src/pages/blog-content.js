@@ -2,6 +2,7 @@ const blogEntries = [
     {
         name: 'blog-entry',
         title: 'This is a Sample Blog Entry',
+        date: "10 Jan 2023",
         content: [
             'This blog entry is supposed to take up space. Each paragraph is a its own separate item. This will allow to put pictures between paragraphs if we so want! Downey Rose Float Association is pretty cool! Its a non profit organization that builts a rose float for the Tournament of Roses parade!',
             'Did you know there is a football game after the parade? I didn\'t even know, I just liked the parade! The participating college football teams also participate by having a float in the parade!',
@@ -12,6 +13,7 @@ const blogEntries = [
     }, {
         name: 'learn-react',
         title: 'The Fastest Way to Learn React',
+        date: "12 Dec 2023",
         content: [
             `Welcome! Today we're going to be talking about the fastest way to
             learn React. We'll be discussing some topics such as proin congue
@@ -32,10 +34,13 @@ const blogEntries = [
             sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
             interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
             consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-        ]
+        ],
+        imageSRC: 'DRFA-concept-2023.bmp',
+        imageALT: 'Concept for Rose Float 2023'
     },    {
         name: 'learn-node',
         title: 'How to Build a Node Server in 10 Minutes',
+        date: "1 Jan 2023",
         content: [
             `In this article, we're going to be talking looking at a very quick way
             to set up a Node.js server. We'll be discussing some topics such as proin congue
@@ -56,10 +61,13 @@ const blogEntries = [
             sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
             interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
             consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-        ]
+        ],
+        imageSRC: 'DRFA-concept-2023.bmp',
+        imageALT: 'Concept for Rose Float 2023'
     },     {
         name: 'mongodb',
         title: 'Learn MongoDB',
+        date: "20 Dec 2023",
         content: [
             `Today is the day I talk about something which scares most people: resumes.
             In reality, I'm not sure why people have such a hard time with proin congue
@@ -80,7 +88,9 @@ const blogEntries = [
             sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
             interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
             consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-        ]
+        ],
+        imageSRC: 'DRFA-concept-2023.bmp',
+        imageALT: 'Concept for Rose Float 2023'
     },  
 ];
 
