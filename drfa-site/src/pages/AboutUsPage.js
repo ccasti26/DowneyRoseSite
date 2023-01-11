@@ -16,7 +16,7 @@ const AboutUsPage = () => {
             <p>Downey's entry has the distinction of being one of only <em>six</em>  floats which come under the parade classification of self-built. This classification means that the Downey Rose Float is entirely self-funded, constructed, and decorated. Our mission is to continue to raise funds for the successful continuation and representation of the City of Downey while bringing community members together and fostering civic pride.</p>
             <p>We invite everyone in the community to attend our monthly meetings and to contact us to find one of the many ways you can support the organization through membership, fund raisers, or volunteering.</p>
             <a id="call-to-join" href="https://form.jotform.com/213115262154040?fbclid=IwAR00IS1Yz-ldlXHWwG96tYikYulsq_XJn-ZLf8CBgmGxa1Xn-unHd7HLg1c" target='_blank'>Become a member! Join the Downey Rose Float Association today!</a>
-            </main>
+        </main>
 
         </>
     );

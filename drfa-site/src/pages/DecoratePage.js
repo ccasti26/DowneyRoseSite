@@ -1,6 +1,7 @@
 const DecoratePage = () => {
     return (
         <>
+
         <main>
             <h2>Volunteer to decorate the float!</h2>
             <p>Thank you for your interest in volunteering to decorate the Downey Rose Float!</p>
@@ -8,6 +9,7 @@ const DecoratePage = () => {
             <p>Volunteers are needed to add flowers, seeds and other materials that will turn the float into a beautiful work of art.</p>
             <p>We begin decorating in December during our "Deco Week" which starts on December 26th until the float leaves for the parade the night before the Parade, from 10am to 10pm.</p>
         </main>
+        
         </>
     );
 }

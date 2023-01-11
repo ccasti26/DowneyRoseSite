@@ -1,6 +1,12 @@
 const DonatePage = () => {
     return (
-        <h2>This is the Donate Page</h2>
+        <>
+
+        <main>
+            <h2>This is the donation page</h2>
+        </main>
+        
+        </>
     );
 }
 

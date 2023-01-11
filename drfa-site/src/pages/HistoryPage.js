@@ -1,5 +1,7 @@
 const History = () => {
     return(
+        <>
+        
         <main>
             <table>
                 <thead>
@@ -54,6 +56,9 @@ const History = () => {
                 </tbody>
             </table>
         </main>
+
+        </>
+
     );
 }
 
