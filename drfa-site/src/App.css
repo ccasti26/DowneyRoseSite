@@ -191,7 +191,8 @@ table tbody tr:nth-child(even) {
   background-color: lightpink;
 }
 
-/* HIDES column that doesn't fit on mobile screen */
+/* HIDES column that doesn't fit on mobile screen 
+    PRESIDENT column does not appear on mobile  */
 table tbody tr td:nth-child(5) {
   display: none;
 }
