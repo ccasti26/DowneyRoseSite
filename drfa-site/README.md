@@ -1,3 +1,26 @@
+# Downey Rose Float Association Site
+
+## Prerequisites
+
+#### Node
+This project requires Node.js 18 to run.
+visit https://nodejs.org/en/ to install the latest LTS version.
+
+This project also requires a command line to run the project
+
+#### Visual Studio Code
+Visual Studio Code is a useful editor to see and run the code.
+Visit https://code.visualstudio.com/ to download the latest version.
+This project also requires a command line to run the project
+
+
+## Running the code
+Open the project folder in Visual Studio Code and open the terminal
+Go into the drfa-site folder with `cd \drfa-site\`
+
+Run the front end with `npm start`
+The browser should open with the home page displayed.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -11,6 +11,17 @@ const blogEntries = [
         imageSRC: 'DRFA-concept-2023.bmp',
         imageALT: 'Concept for Rose Float 2023'
     }, {
+        name: 'concept-2023-float',
+        title: 'DRFA\'s Float Concept for 2023',
+        date: "21 Jan 2023",
+        content: [
+            'This is the blog article about the float concept. The float features bees, a honeycomb arch, and many beautiful floral arrangements.',
+            'The float can hit a blistering 5MPH.',
+            'The float is so large it has two drivers. Have you seen a big firetruck that has someone in a booth in the back? That person controls the rear tires to make sure that the truck doesn\'t hit anything while its driving. Our float is using the same although the float is driving on closed streets and it is allowed to take as wide a turn as it needs, it would be best if it didn\'t get too close to the parade watchers.' 
+        ],
+        imageSRC: 'DRFA-concept-2023.bmp',
+        imageALT: 'Concept for Rose Float 2023'
+    }, {
         name: 'learn-react',
         title: 'The Fastest Way to Learn React',
         date: "12 Dec 2023",

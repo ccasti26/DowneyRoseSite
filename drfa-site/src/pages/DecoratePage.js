@@ -9,6 +9,9 @@ const DecoratePage = () => {
             <p>Volunteers are needed to add flowers, seeds and other materials that will turn the float into a beautiful work of art.</p>
             <p>We begin decorating in December during our "Deco Week" which starts on December 26th until the float leaves for the parade the night before the Parade, from 10am to 10pm.</p>
         </main>
+        <aside><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1655.3948570063053!2d-118.16476341336966!3d33.9208113506555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2ccff1dfb2b29%3A0xdfd51d9133aaea80!2sDowney%20Rose%20Float!5e0!3m2!1sen!2sus!4v1674420450508!5m2!1sen!2sus" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Decoration Location"></iframe></aside>
+
+        
         
         </>
     );

@@ -3,6 +3,8 @@ const roseFloatEntries = [
         year: 2023,
         parade: 'Turning the Corner',
         float: 'Bee Inspired',
+        award: "Leishman Public Spirit",
+        president: "Jeremy Clifton"
     },
     {
         year: 2022,
@@ -223,7 +225,7 @@ const roseFloatEntries = [
     },{
         year: 1986,
         parade: "A Celebration of Laughter",
-        float: "Clowing Around",
+        float: "Clowning Around",
         award: "",
         president: "Brownie Brown"
     },{
